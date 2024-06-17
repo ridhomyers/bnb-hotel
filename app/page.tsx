@@ -4,7 +4,7 @@ import EmptyState from "@/components/EmptyState";
 
 import getListings, { IListingsParams } from "@/actions/getListings";
 import getCurrentUser from "@/actions/getCurrentUser";
-import ClientOnly from "../components/ClientOnly";
+import ClientOnly from "@/components/ClientOnly";
 
 interface HomeProps {
   searchParams: IListingsParams;
